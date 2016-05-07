@@ -13,7 +13,7 @@ db = SQLAlchemy()
 triangle = Triangle()
 
 def create_app(config_name):
-	app = Flask(__name__)
+	app = Flask(__name__, static_path='/static')
 	app.config.from_object(config[config_name])
         
         triangle.init_app(app)
