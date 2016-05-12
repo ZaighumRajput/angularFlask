@@ -1,3 +1,4 @@
+libsls
 <!doctype html>
 <html data-ng-app="todoApp">
 <head>
@@ -7,7 +8,7 @@
 </head>
 {% raw %}
 <body>
-      <h2>Todo</h2>
+      <h2>To do</h2>
       <div ng-controller="TodoListController as todoList">
         <span>{{todoList.remaining()}} of {{todoList.todos.length}} remaining</span>
         [ <a href="" ng-click="todoList.archive()">archive</a> ]
