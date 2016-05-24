@@ -1,9 +1,23 @@
+html {
+    margin: 30px;
+    border: 2px dotted black;
+}
 .done-true {
 	text-decoration: line-through; 
 	color: red;
 }
 
-h2 {
+h2.title {
     font-size : 50px;
     color : green;
+    text-align: center;
+    text-decoration: underline;
+}
+body {
+    background-color: antiquewhite
+}
+#main {
+    margin-left: 5%;
+    padding: 50px;
+    width: 80%;
 }
