@@ -2,9 +2,15 @@
 <html data-ng-app="todoApp">
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-    <script src="Todo.js"></script>
-    <link rel="stylesheet" href="todo.css"/>
+<<<<<<< HEAD
+    <script src="{{ url_for('static', filename = "todo.js")}}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename = "todo.css")}}"/>
+=======
+    <script src="https://cdn.rawgit.com/ZaighumRajput/angularFlask/master/app/static/Todo.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/ZaighumRajput/angularFlask/master/app/static/todo.css"/>
+>>>>>>> ee1716d35128cb45bc8ad492027acf05b2f7ccbf
 </head>
+{% raw %}
 <body>
       <h2 class="title">To-do list</h2>
       <div ng-controller="TodoListController as todoList" id="main">
@@ -28,3 +34,4 @@
          </div>
     </body>
     </html>
+{% endraw %}

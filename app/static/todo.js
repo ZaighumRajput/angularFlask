@@ -25,7 +25,12 @@ angular.module('todoApp', [])
 							            angular.forEach(oldTodos, function(todo) {
 									                if (!todo.done) todoList.todos.push(todo);
 											          });
+                                  alert("On to the next one!")  //adding encouragement
 								            };
 			            });
+//function congrat() {
+//    alert("Congratulations you finished a task!" );  //congratulating user for finishing task
+//};
 
 
+//Should add a function to make sure that if the add filed is empty then the user get's an alert to fill the field
