@@ -1,0 +1,20 @@
+body {
+    background-image: url("Ryu.jpg");
+    width: 100%;
+    height: 100%;
+}
+p.bk {
+  color: black;
+  background-color: white;
+  font-weight: bolder;
+}
+ul#members, li{
+  color: black;
+  background-color: white;
+  font-weight: bolder;    
+}
+p.end {
+  color: red;
+  background-color: white;
+  font-weight: bolder;    
+}
