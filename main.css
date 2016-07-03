@@ -1,0 +1,31 @@
+#back{
+    background-color: lightblue;
+}
+
+#title{
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.ref{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.hd{
+    display: none;
+}
+
+.txt {
+    font-size: 1.2em;
+}
+.end {
+  color: crimson;
+  font-weight: bold;    
+  font-family: cursive;
+  text-align: center;
+  font-size: .8em;
+}

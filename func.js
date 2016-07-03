@@ -1,0 +1,31 @@
+var cname = navigator.appCodeName;
+var bname = navigator.appName;
+var bver = navigator.appVersion;
+var cooken = navigator.cookieEnabled;
+var lang = navigator.language;
+var plat = navigator.platform;
+var javaen = navigator.javaEnabled();
+var ht = screen.height;
+var wdh = screen.width;
+var avhgt = screen.availHeight;
+var avwdh = screen.availWidth;
+var cldth = screen.colorDepth;
+var pdth = screen.pixelDepth;
+$("#show").on("click", function() {
+    $("#cname").text(cname + ", Please note that all modern broswers return Mozilla for compatability reasons");
+    $("#bname").text(bname);
+    $("#bver").text(bver);
+    $("#cooken").text(cooken);
+    $("#lang").text(lang);
+    $("#plat").text(plat);
+    $("#javaen").text(javaen);
+});
+$("#ht").text(ht + " px");
+$("#wdh").text(wdh + " px");
+$("#avhgt").text(avhgt + " px");
+$("#avwdh").text(avwdh + " px");
+$("#cldth").text(cldth + " px");
+$("#pdth").text(pdth + " px");
+$("#show2").on("click", function() {
+    $("#sinfo").removeClass("hd");
+});
