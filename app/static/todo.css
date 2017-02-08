@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+.done-true {
+	text-decoration: line-through; 
+	color: blue;
+
+}
+=======
 html {
     margin: 30px;
     border: 2px dotted black;
@@ -21,3 +28,4 @@ body {
     padding: 50px;
     width: 80%;
 }
+>>>>>>> bc9d9d0344abd772a64279fa8d2f599251f25d22
